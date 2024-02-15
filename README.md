@@ -8,3 +8,4 @@
 - Vite
 - Reactjs
 - TailWindCSS
+- FontAwesome
