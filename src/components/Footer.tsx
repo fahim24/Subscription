@@ -6,12 +6,13 @@ import {
 	faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { Divider } from "antd";
 
 const Footer = () => {
 	return (
 		<section className="container mx-auto px-5 md:px-10">
 			<div className="py-16 flex flex-col lg:flex-row justify-between gap-y-10">
-				<div className="text-CDark basis-1/2 flex flex-col gap-5">
+				<div className="text-CDark basis-1/2 space-y-5">
 					<h2 className="text-3xl font-bold text-center md:text-left">
 						Build better landing page fast
 					</h2>
@@ -31,9 +32,9 @@ const Footer = () => {
 					</button>
 				</div>
 			</div>
-			<div className="border-t border-solid border-CLine w-full"></div>
+			<Divider />
 			<div className="py-24 flex flex-col lg:flex-row justify-between gap-y-10">
-				<div className="flex flex-col gap-8 text-CDark basis-1/4 order-2 lg:order-1">
+				<div className="space-y-8 text-CDark basis-1/4 order-2 lg:order-1">
 					<h3 className="text-2xl font-bold text-center md:text-left">Brainwave.io</h3>
 					<p className="opacity-70 text-center md:text-left">
 						With lots of unique blocks, you can easily build a page without coding. Build your next
@@ -57,7 +58,7 @@ const Footer = () => {
 				<div className="grid grid-cols-1 md:grid-cols-4 gap-x-16 gap-y-8 order-1 lg:order-2">
 					<div className="flex flex-col items-center md:items-start text-center md:text-left text-CDark gap-5">
 						<h6 className="opacity-70">Company</h6>
-						<ul className="">
+						<ul className="space-y-1">
 							<li>
 								<a href="#" className="hover:text-CBlue">
 									About us
@@ -82,7 +83,7 @@ const Footer = () => {
 					</div>
 					<div className="flex flex-col items-center md:items-start text-center md:text-left text-CDark gap-5">
 						<h6 className="opacity-70">Product</h6>
-						<ul className="">
+						<ul className="space-y-1">
 							<li>
 								<a href="#" className="hover:text-CBlue">
 									Features
@@ -112,7 +113,7 @@ const Footer = () => {
 					</div>
 					<div className="flex flex-col items-center md:items-start text-center md:text-left text-CDark gap-5">
 						<h6 className="opacity-70">Services</h6>
-						<ul className="">
+						<ul className="space-y-1">
 							<li>
 								<a href="#" className="hover:text-CBlue">
 									Digital Marketing
@@ -137,7 +138,7 @@ const Footer = () => {
 					</div>
 					<div className="flex flex-col items-center md:items-start text-center md:text-left text-CDark gap-5">
 						<h6 className="opacity-70">Legal</h6>
-						<ul className="">
+						<ul className="space-y-1">
 							<li>
 								<a href="#" className="hover:text-CBlue">
 									Privacy Policy

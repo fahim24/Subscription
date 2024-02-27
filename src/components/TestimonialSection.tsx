@@ -12,7 +12,7 @@ const TestimonialSection = () => {
 					<p className="opacity-70 text-lg">
 						My new site is so much faster and easier to work with than my old site.
 					</p>
-					<div className="flex flex-col gap-2">
+					<div className="space-y-2">
 						<p className="font-bold">Corey Valdez</p>
 						<p className="opacity-70 text-sm">Founder at Zenix</p>
 					</div>
@@ -25,7 +25,7 @@ const TestimonialSection = () => {
 					<p className="opacity-70 text-lg">
 						Better than all the rest. I’d recommend this product to beginners.
 					</p>
-					<div className="flex flex-col gap-2">
+					<div className="space-y-2">
 						<p className="font-bold">Ian Klein</p>
 						<p className="opacity-70 text-sm">Digital Marketer</p>
 					</div>

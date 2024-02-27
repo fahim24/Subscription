@@ -1,6 +1,7 @@
 import Card from "../assets/card2.png";
 import Event from "../assets/event2.png";
 import Cal from "../assets/calender.png";
+import { Divider } from "antd";
 
 const HowToSection = () => {
 	return (
@@ -19,8 +20,8 @@ const HowToSection = () => {
 					<p className="opacity-70 text-lg">Average customer ratings out of 5.00!</p>
 				</div>
 			</div>
-			<div className="border-t border-solid border-CLine w-full"></div>
-			<div className="py-24 flex flex-col gap-20">
+			<Divider />
+			<div className="py-24 space-y-20">
 				<div className="flex flex-col gap-4 items-center w-full md:w-3/4 lg:w-1/2 mx-auto text-CDark">
 					<h3 className=" font-bold text-3xl text-center">Manage your projects fast</h3>
 					<p className="text-lg text-center opacity-70">
@@ -46,12 +47,12 @@ const HowToSection = () => {
 							className="absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 h-[110px] md:h-[166px] w-2/3 shadow1"
 						/>
 					</div>
-					<div className="flex flex-col gap-8">
+					<div className="space-y-8">
 						<div className="flex items-center gap-5">
-							<div className="bg-CBlue bg-opacity-10 rounded-full h-10 w-10 text-center text-CBlue font-bold py-1.5 shrink-0">
+							<div className="bg-CBlue bg-opacity-10 rounded-full size-10 text-center text-CBlue font-bold py-1.5 shrink-0">
 								1
 							</div>
-							<div className="flex flex-col gap-2 text-CDark">
+							<div className="sapce-y-2 text-CDark">
 								<h4 className="text-xl font-bold">Create a project</h4>
 								<p className="opacity-70">
 									With lots of unique blocks, you can easily build a page without coding.
@@ -59,10 +60,10 @@ const HowToSection = () => {
 							</div>
 						</div>
 						<div className="flex items-center gap-5">
-							<div className="bg-CBlue bg-opacity-10 rounded-full h-10 w-10 text-center text-CBlue font-bold py-1.5 shrink-0">
+							<div className="bg-CBlue bg-opacity-10 rounded-full size-10 text-center text-CBlue font-bold py-1.5 shrink-0">
 								2
 							</div>
-							<div className="flex flex-col gap-2 text-CDark">
+							<div className="space-y-2 text-CDark">
 								<h4 className="text-xl font-bold">Assign related people</h4>
 								<p className="opacity-70">
 									With lots of unique blocks, you can easily build a page without coding.
@@ -70,10 +71,10 @@ const HowToSection = () => {
 							</div>
 						</div>
 						<div className="flex items-center gap-5">
-							<div className="bg-CBlue bg-opacity-10 rounded-full h-10 w-10 text-center text-CBlue font-bold py-1.5 shrink-0">
+							<div className="bg-CBlue bg-opacity-10 rounded-full size-10 text-center text-CBlue font-bold py-1.5 shrink-0">
 								3
 							</div>
-							<div className="flex flex-col gap-2 text-CDark">
+							<div className="space-y-2 text-CDark">
 								<h4 className="text-xl font-bold">Make it done on-time</h4>
 								<p className="opacity-70">
 									With lots of unique blocks, you can easily build a page without coding.

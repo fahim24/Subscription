@@ -6,10 +6,10 @@ const FAQSection = () => {
 		<>
 			<div className="grid grid-cols-1 lg:grid-cols-2  gap-16">
 				<div className="flex gap-5">
-					<div className="bg-CGreen rounded-full h-8 w-8 text-center text-white font-bold py-1 shrink-0 translate-y-1/2">
+					<div className="bg-CGreen rounded-full size-8 text-center text-white font-bold py-1 shrink-0 translate-y-1/2">
 						?
 					</div>
-					<div className="flex flex-col gap-5 text-white">
+					<div className="space-y-5 text-white">
 						<h4 className="text-xl font-bold">Can I use Albino for my clients?</h4>
 						<p className="opacity-70">
 							With lots of unique blocks, you can easily build a page without coding. Build your
@@ -25,10 +25,10 @@ const FAQSection = () => {
 					</div>
 				</div>
 				<div className="flex gap-5">
-					<div className="bg-CGreen rounded-full h-8 w-8 text-center text-white font-bold py-1 shrink-0 translate-y-1/2">
+					<div className="bg-CGreen rounded-full size-8 text-center text-white font-bold py-1 shrink-0 translate-y-1/2">
 						?
 					</div>
-					<div className="flex flex-col gap-5 text-white">
+					<div className="space-y-5 text-white">
 						<h4 className="text-xl font-bold">Does it work with WordPress?</h4>
 						<p className="opacity-70">
 							With lots of unique blocks, you can easily build a page without coding. Build your
@@ -38,10 +38,10 @@ const FAQSection = () => {
 					</div>
 				</div>
 				<div className="flex gap-5">
-					<div className="bg-CGreen rounded-full h-8 w-8 text-center text-white font-bold py-1 shrink-0 translate-y-1/2">
+					<div className="bg-CGreen rounded-full size-8 text-center text-white font-bold py-1 shrink-0 translate-y-1/2">
 						?
 					</div>
-					<div className="flex flex-col gap-5 text-white">
+					<div className="space-y-5 text-white">
 						<h4 className="text-xl font-bold">Do I get free updates?</h4>
 						<p className="opacity-70">
 							With lots of unique blocks, you can easily build a page without coding. Build your
@@ -51,10 +51,10 @@ const FAQSection = () => {
 					</div>
 				</div>
 				<div className="flex gap-5">
-					<div className="bg-CGreen rounded-full h-8 w-8 text-center text-white font-bold py-1 shrink-0 translate-y-1/2">
+					<div className="bg-CGreen rounded-full size-8 text-center text-white font-bold py-1 shrink-0 translate-y-1/2">
 						?
 					</div>
-					<div className="flex flex-col gap-5 text-white">
+					<div className="space-y-5 text-white">
 						<h4 className="text-xl font-bold">Will you provide support?</h4>
 						<p className="opacity-70">
 							With lots of unique blocks, you can easily build a page without coding. Build your
