@@ -24,7 +24,7 @@ const PriceSection = () => {
 							With lots of unique blocks, you can easily build a page without coding. Build your
 							next landing page.
 						</p>
-						<button className="bg-CBlue w-full text-white font-bold rounded-lg px-4 py-3 justify-end">
+						<button className="hover:opacity-90 bg-CBlue w-full text-white font-bold rounded-lg px-4 py-3 justify-end">
 							Get started for free
 						</button>
 					</div>
@@ -41,7 +41,7 @@ const PriceSection = () => {
 							With lots of unique blocks, you can easily build a page without coding. Build your
 							next landing page.
 						</p>
-						<button className="bg-CBlue w-full text-white font-bold rounded-lg px-4 py-3 justify-end">
+						<button className="hover:opacity-90 bg-CBlue w-full text-white font-bold rounded-lg px-4 py-3 justify-end">
 							Get started for free
 						</button>
 					</div>
@@ -57,7 +57,7 @@ const PriceSection = () => {
 							With lots of unique blocks, you can easily build a page without coding. Build your
 							next landing page.
 						</p>
-						<button className="bg-CBlue w-full text-white font-bold rounded-lg px-4 py-3 justify-end">
+						<button className="hover:opacity-90 bg-CBlue w-full text-white font-bold rounded-lg px-4 py-3 justify-end">
 							Get started for free
 						</button>
 					</div>

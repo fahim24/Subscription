@@ -22,11 +22,11 @@ const Footer = () => {
 					</p>
 				</div>
 				<div className="flex flex-col md:flex-row justify-center items-center gap-5">
-					<button className="bg-CBlue bg-opacity-10 text-CBlue font-bold rounded-lg px-4 py-3 flex items-center gap-10 order-2 md:order-1">
+					<button className="bg-CBlue bg-opacity-10 hover:bg-opacity-20 text-CBlue font-bold rounded-lg px-4 py-3 flex items-center gap-10 order-2 md:order-1">
 						<span>Learn more</span>
 						<FontAwesomeIcon icon={faArrowRight} />
 					</button>
-					<button className="bg-CBlue text-white font-bold rounded-lg px-4 py-3 flex items-center gap-10 order-1 md:order-2">
+					<button className="bg-CBlue text-white font-bold rounded-lg px-4 py-3 flex items-center gap-10 order-1 md:order-2 hover:opacity-90">
 						<span>Get it now</span>
 						<FontAwesomeIcon icon={faArrowRight} />
 					</button>

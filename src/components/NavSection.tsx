@@ -41,10 +41,10 @@ const NavSection = () => {
 		<nav className="px-5 md:px-20 w-full flex flex-col lg:flex-row items-center justify-between gap-x-20 gap-y-10 py-1">
 			<div className="flex w-full lg:w-auto items-center justify-between">
 				<a href="#" onClick={resetMenu} title="Go to home">
-					<h2 className="text-CDark font-bold text-2xl">Brainwave.io</h2>
+					<h2 className="text-CDark font-bold text-2xl hover:text-CGreen">Brainwave.io</h2>
 				</a>
 				<button
-					className="block lg:hidden bg-CBlue text-white font-bold rounded-lg  py-3 px-4"
+					className="block lg:hidden bg-CBlue text-white font-bold rounded-lg  py-3 px-4 hover:opacity-90"
 					title="Open/Close nav menu"
 					onClick={toggleMenu}
 				>

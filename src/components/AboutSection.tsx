@@ -16,7 +16,7 @@ const AboutSection = () => {
 						With lots of unique blocks, you can easily build a page without coding. Build your next
 						landing page so quickly with Albino.
 					</p>
-					<button className="bg-CBlue text-white font-bold rounded-lg px-5 py-3 flex items-center gap-10 w-fit mx-auto lg:m-0">
+					<button className="bg-CBlue text-white font-bold rounded-lg px-5 py-3 flex items-center gap-10 w-fit mx-auto lg:m-0 hover:opacity-90">
 						<span>Get started for free</span>
 						<FontAwesomeIcon icon={faArrowRight} />
 					</button>

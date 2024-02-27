@@ -1,5 +1,6 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Image } from "antd";
 
 import Browser from "../assets/browser.png";
 
@@ -15,16 +16,18 @@ const HeroSection = () => {
 					stay in high demand.
 				</p>
 				<div className="flex flex-col md:flex-row justify-center items-center gap-5">
-					<button className="bg-CBlue text-white font-bold rounded-lg px-4 py-3 flex items-center gap-10">
+					<button className="bg-CBlue text-white font-bold rounded-lg px-4 py-3 flex items-center gap-10 hover:opacity-90">
 						<span>Get started for free</span>
 						<FontAwesomeIcon icon={faArrowRight} />
 					</button>
-					<button className=" text-CDark font-bold rounded-lg px-4 py-3 flex items-center gap-10">
+					<button className=" hover:text-CBlue text-CDark font-bold rounded-lg px-4 py-3 flex items-center gap-10">
 						Learn more
 					</button>
 				</div>
 			</div>
-			<img src={Browser} alt="" className="w-full md:w-3/4 mx-auto mt-20 shadow3" />
+			<div className="w-full md:w-3/4 mx-auto mt-20 shadow3 rounded-lg">
+				<Image src={Browser} height={"100%"} width={"100%"} className="rounded-lg" />
+			</div>
 		</section>
 	);
 };
